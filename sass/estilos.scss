@@ -1,8 +1,9 @@
+@use './partials/globales';
+
+@use './partials/responsives';
+
 @use './partials/header';
 
 @use './partials/footer';
 
-@use './partials/responsives';
-
 @use './partials/main';
-

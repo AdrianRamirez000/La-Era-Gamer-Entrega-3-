@@ -6,15 +6,50 @@
   color: white;
 }
 
+@media (min-width: 360px) and (max-width: 399px) {
+  footer {
+    background-color: rgb(124, 0, 0);
+    height: 52rem;
+  }
+  .juego {
+    margin: 10px 0px 20px 0px;
+    width: 1300px;
+  }
+}
+@media (min-width: 399px) {
+  footer {
+    background-color: rgb(124, 0, 0);
+    height: 43rem;
+  }
+}
+@media (min-width: 620px) {
+  footer {
+    background-color: rgb(124, 0, 0);
+    height: 29rem;
+  }
+}
+@media (min-width: 907px) {
+  footer {
+    background-color: rgb(124, 0, 0);
+    height: 26rem;
+  }
+}
+@media (min-width: 1140px) {
+  footer {
+    padding: 20px;
+    margin: 50px 0px 50px 0px;
+    height: 300px;
+  }
+  .juego {
+    width: 550px;
+    margin: 30px;
+  }
+}
 .body {
   background-color: black;
 }
 
-h1 {
-  font-size: 50px;
-}
-
-.headerNavegacion {
+header .headerNavegacion {
   border: solid yellow;
   display: flex;
   justify-content: space-around;
@@ -23,33 +58,31 @@ h1 {
   padding: 5px;
   flex-wrap: wrap;
 }
-
-.navegacionInicio {
+header h1 {
+  font-size: 50px;
+}
+header ul {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   text-align: center;
 }
-
-.listasHeader {
+header ul .listasHeader {
   margin: 0px 40px 0px 40px;
 }
-
-.links {
+header ul .links {
   text-decoration: none;
   color: white;
   display: flex;
   align-content: center;
   flex-wrap: wrap;
 }
-
-.barraBusqueda {
+header .barraBusqueda {
   display: flex;
   justify-content: center;
   margin: 15px;
 }
-
-.buscador {
+header .buscador {
   border-radius: 20px;
   padding-left: 10px;
   width: 80rem;
@@ -121,50 +154,7 @@ input {
   color: black;
 }
 
-@media (min-width: 360px) {
-  .juego {
-    margin: 10px 0px 20px 0px;
-    width: 1300px;
-  }
-}
-@media (min-width: 1140px) {
-  .juego {
-    width: 600px;
-    margin: 30px;
-  }
-}
-@media (min-width: 360px) {
-  footer {
-    background-color: rgb(124, 0, 0);
-    height: 52rem;
-  }
-}
-@media (min-width: 399px) {
-  footer {
-    background-color: rgb(124, 0, 0);
-    height: 43rem;
-  }
-}
-@media (min-width: 620px) {
-  footer {
-    background-color: rgb(124, 0, 0);
-    height: 29rem;
-  }
-}
-@media (min-width: 907px) {
-  footer {
-    background-color: rgb(124, 0, 0);
-    height: 26rem;
-  }
-}
-@media (min-width: 1140px) {
-  footer {
-    padding: 20px;
-    margin: 50px 0px 50px 0px;
-    height: 300px;
-  }
-}
-.plataformasCuatro {
+nav .plataformasCuatro {
   border: 1px solid yellow;
   margin: 50px 15px 25px 15px;
   font-size: 38px;
@@ -177,14 +167,13 @@ h2 {
   margin-bottom: 10px;
 }
 
-.juego {
-  width: 550px;
+article .juego {
+  width: 600px;
   margin: 30px;
   border: 5px double white;
   border-radius: 30px;
 }
-
-.sipnosis {
+article .sipnosis {
   font-size: 28px;
   display: flex;
   align-items: center;
