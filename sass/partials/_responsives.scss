@@ -1,11 +1,45 @@
+// Responsive imágenes
+
+@media(min-width: 320px){
+    .juego{
+        width: 1200px;
+        margin: 30px 0px 0px 0px;
+        border: 5px double white;
+        border-radius: 30px;
+    }
+    
+    .forspoken{
+        display: flex;
+    }
+}
+
+@media(min-width: 720px){
+    .juego{
+        margin: 20px 0px;
+        border: 5px double white;
+        border-radius: 30px;
+    }
+}
+
+@media(min-width: 960px){
+    .juego{
+        border: 5px double white;
+        border-radius: 30px;
+    }
+}
+
+@media(min-width: 1200px){
+    .juego{
+        width: 600px;
+        margin: 30px;
+        border: 5px double white;
+        border-radius: 30px;
+    }
+}
+
 // Responsive footer
 
 @media(min-width: 360px) and (max-width: 399px){
-    .juego{
-        margin: 10px 0px 20px 0px;
-        width: 1300px;
-    }
-
     footer{
         background-color:rgb(124, 0, 0);
         height: 52rem;
@@ -30,11 +64,6 @@
     }
 }
 @media(min-width: 1140px){
-    .juego{
-        width: 550px;
-        margin: 30px;
-    }
-
     footer{
         padding: 20px;
         margin: 50px 0px 50px 0px;

@@ -3,18 +3,23 @@ footer{
     padding: 20px;
     margin: 50px 0px 50px 0px;
     height: 300px;
+
+    h3{
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 35px;
+        margin: 40px;
+    }
+
+    nav{
+        .iconos{
+            width: 75px;
+            margin: 20px 90px;
+        }
+    }
 }
-h3{
-    display:flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 35px;
-    margin: 40px;
-}
-.iconos{
-    width: 75px;
-    margin: 20px 90px;
-}
+
 .botones{
     display: flex;
     margin: 10px;
