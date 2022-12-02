@@ -10,7 +10,6 @@ header{
         align-items: center;
         margin: 20px;
         padding: 5px;
-        flex-wrap: wrap;    
     }
     
     h1{
@@ -19,9 +18,7 @@ header{
 
     ul{
         display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        text-align: center;    
+        margin: 0px;
         
         .listasHeader{
             margin: 0px 40px 0px 40px;
@@ -30,9 +27,6 @@ header{
         .links{
             text-decoration: none;
             color: white;
-            display: flex;
-            align-content: center;
-            flex-wrap: wrap;
         }
     }
 

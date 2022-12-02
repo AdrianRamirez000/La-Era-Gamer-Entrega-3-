@@ -80,16 +80,13 @@ header .headerNavegacion {
   align-items: center;
   margin: 20px;
   padding: 5px;
-  flex-wrap: wrap;
 }
 header h1 {
   font-size: 50px;
 }
 header ul {
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  text-align: center;
+  margin: 0px;
 }
 header ul .listasHeader {
   margin: 0px 40px 0px 40px;
@@ -97,9 +94,6 @@ header ul .listasHeader {
 header ul .links {
   text-decoration: none;
   color: white;
-  display: flex;
-  align-content: center;
-  flex-wrap: wrap;
 }
 header .barraBusqueda {
   display: flex;
