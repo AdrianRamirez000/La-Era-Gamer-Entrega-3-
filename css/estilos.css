@@ -7,6 +7,21 @@
 }
 
 @media (min-width: 320px) {
+  h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 1200px) {
+  h2 {
+    font-size: 35px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+}
+@media (min-width: 320px) {
   .juego {
     width: 1200px;
     margin: 30px 0px 0px 0px;
@@ -15,6 +30,11 @@
   }
   .forspoken {
     display: flex;
+    flex-direction: column-reverse;
+  }
+  .forspoken .sipnosis {
+    margin: 20px 0px;
+    padding: 0px 30px;
   }
 }
 @media (min-width: 720px) {
@@ -37,33 +57,47 @@
     border: 5px double white;
     border-radius: 30px;
   }
-}
-@media (min-width: 360px) and (max-width: 399px) {
-  footer {
-    background-color: rgb(124, 0, 0);
-    height: 52rem;
+  .forspoken {
+    display: flex;
+    flex-direction: row;
+  }
+  .forspoken .sipnosis {
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    text-align: justify;
   }
 }
-@media (min-width: 399px) {
+@media (min-width: 320px) {
+  footer {
+    background-color: rgb(124, 0, 0);
+    height: 50rem;
+    padding: 20px;
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 540px) {
   footer {
     background-color: rgb(124, 0, 0);
     height: 43rem;
   }
 }
-@media (min-width: 620px) {
+@media (min-width: 720px) {
   footer {
     background-color: rgb(124, 0, 0);
-    height: 29rem;
+    height: 28rem;
   }
 }
-@media (min-width: 907px) {
+@media (min-width: 960px) {
   footer {
     background-color: rgb(124, 0, 0);
-    height: 26rem;
+    height: 25rem;
   }
 }
-@media (min-width: 1140px) {
+@media (min-width: 1200px) {
   footer {
+    background-color: rgb(124, 0, 0);
     padding: 20px;
     margin: 50px 0px 50px 0px;
     height: 300px;
@@ -80,6 +114,7 @@ header .headerNavegacion {
   align-items: center;
   margin: 20px;
   padding: 5px;
+  flex-wrap: wrap;
 }
 header h1 {
   font-size: 50px;
@@ -87,6 +122,7 @@ header h1 {
 header ul {
   display: flex;
   margin: 0px;
+  flex-wrap: wrap;
 }
 header ul .listasHeader {
   margin: 0px 40px 0px 40px;
@@ -111,12 +147,6 @@ header .buscador {
   border-width: 5px;
 }
 
-footer {
-  background-color: rgb(124, 0, 0);
-  padding: 20px;
-  margin: 50px 0px 50px 0px;
-  height: 300px;
-}
 footer h3 {
   display: flex;
   justify-content: center;
@@ -179,7 +209,6 @@ nav .plataformasCuatro {
 
 h2 {
   font-size: 35px;
-  margin-left: 40px;
   margin-bottom: 10px;
 }
 
