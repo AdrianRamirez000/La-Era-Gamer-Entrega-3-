@@ -19,24 +19,78 @@
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body class="body">
-    <h1 .col-sm-4>Regístrate con nosotros:</h1>
-    <form action="" method="post">
-        <label .col-sm-12 for="nombre">Nombre:</label>
-        <input type="text" name="Nombre" id="nombre" placeholder="Nombre(s)" required>
-        <label .col-sm-12 for="apellido">Apeliido:</label>
-        <input type="text" name="Apellido" id="apellido" placeholder="Apellido(s)" required>
-        <br><br>
-        <label .col-sm-12 for="numero">Número celular:</label>
-        <input type="text" name="Número celular" id="numero" placeholder="" required>
-        <br><br>
-        <label .col-sm-12 for="correo">Correo electrónico:</label>
-        <input type="text" name="Correo Electrónico" id="correo" placeholder="" required>
-        <label for="password">Contraseña:</label>
-        <input type="password" name="Crea una Contraseña" id="password" placeholder="" required>
-        <br><br>
-        <input .col-sm-12 class="botones" type="submit" value="Enviar">
-        <input .col-sm-12 class="botones" type="reset" value="Resetear">
-    </form>
-    <button><a href="../index.html">Volver al inicio</a></button>
+    <h1 class="h1_registro" .col-sm-4>Regístrate con nosotros:</h1>
+    <div class="container registro">
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+                <label for="validationTooltip01" class="form-label">Nombre(s)</label>
+                <input type="text" class="form-control" id="surnameId" required>
+                <div class="valid-feedback">
+                    Todo bien
+                </div>
+                <div class="invalid-feedback">
+                    Es necesario poner el nombre
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <label for="surnameId" class="form-label">Apellido(s)</label>
+                <input type="text" class="form-control" id="surnameId" required>
+                <div class="valid-feedback">
+                    Todo bien
+                </div>
+                <div class="invalid-feedback">
+                    Es necesario poner los apellidos
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <label for="surnameId" class="form-label">Nombre de usuario</label>
+                <input type="text" class="form-control" id="surnameId" required>
+                <div class="valid-feedback">
+                    Todo bien
+                </div>
+                <div class="invalid-feedback">
+                    Es necesario poner el nombre de usuario
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="terms" required>
+                    <label for="terms" class="form-check-label">Acepto los términos y condiciones</label>
+                    <div class="invalid-feedback">
+                        Es necesario Aceptar los términos
+                    </div>
+                </div>
+            </div>
+            <div class="botones">
+                <input class="boton" .col-sm-12 class="botones" type="submit" value="Enviar">
+                <input class="boton" .col-sm-12 class="botones" type="reset" value="Resetear">
+            </div>
+        </form>
+    </div>
+
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+            (() => {
+            'use strict'
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            const forms = document.querySelectorAll('.needs-validation')
+
+        // Loop over them and prevent submission
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                if (!form.checkValidity()) {
+                    event.preventDefault()
+                    event.stopPropagation()
+                }
+
+                form.classList.add('was-validated')
+                }, false)
+                })
+            })()
+    </script>
 </body>
 </html>
