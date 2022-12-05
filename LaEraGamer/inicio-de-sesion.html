@@ -18,13 +18,13 @@
     <!-- Link para CSS -->
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
-<body class="body .bodySesion">
+<body class="body">
+  <div class="formulario">
     <form>
         <div class="mb-3">
           <label .col-sm-12 .col-xl-3 for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
           <input .col-sm-12 .col-xl-3 type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.
-        </div>
+          <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
         </div>
         <div class="mb-3">
           <label .col-sm-12 .col-xl-3 for="exampleInputPassword1" class="form-label">Contraseña</label>
@@ -35,7 +35,11 @@
           <label .col-sm-12 .col-xl-3 class="form-check-label" for="exampleCheck1">Me echa un vistazo
         </label>
         </div>
-        <button .col-sm-12 .col-xl-3 type="submit" class="btn btn-primary">Enviar</button>
-      </form>
+        <div class="botones">
+          <input class="boton" .col-sm-12 class="botones" type="submit" value="Enviar">
+          <input class="boton" .col-sm-12 class="botones" type="reset" value="Resetear">
+        </div>
+    </form>
+  </div>
 </body>
 </html>
