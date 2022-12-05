@@ -18,12 +18,47 @@
     <!-- Link para CSS -->
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
-<body class="body" class="centro">
-    <div>
-        <p>Aún no tienes nada en el carrito</p>
-        <img src="/imagenes/carri.jpg" alt="Carrito">
-        <br>
-        <button><a href="../index.html">Volver al inicio</a></button>
-    </div>
+<body class="body container-fluid">
+    <header class="header">
+        <nav class="headerNavegacion">
+            <h1>La Era Gamer</h1>
+
+            <!-- Rutas de Navegación -->
+
+            <ul class="navegacionInicio">
+                <div class="listasHeader"><a href="../LaEraGamer/carrito.html" class="links" target="_blank">Carrito</a></div>
+                <div class="listasHeader"><a href="../LaEraGamer/inicio-de-sesion.html" class="links" target="_blank">Inicio de sesión</a></div>
+                <div class="listasHeader"><a href="../LaEraGamer/registrate.html" class="links" target="_blank">Regístrate</a></div>
+            </ul>
+        </nav>
+        <nav class="barraBusqueda">
+            <input class="buscador" type="search" name="buscador" placeholder="Buscar juegos, DLCs y más...">
+        </nav>
+    </header>
+    <main class="main_carrito">
+        <div class="main_texto">
+            <p>Aún no tienes nada en el carrito</p>
+        </div>
+        <div class="main_imagen">
+            <img src="/imagenes/carri.jpg" alt="Carrito">
+        </div>
+        <div class="main_boton">
+            <button class="boton"><a href="../index.html">Volver al inicio</a></button>
+        </div>
+    </main>
+    <footer class="footer">
+        <h3>Únete a nosotros desde nuestras redes sociales</h3>
+  
+        <!-- Redes Sociales -->
+  
+        <div class="text-center">
+          <nav class="row-cols-4">
+            <a href="https://es-la.facebook.com/" class="redSocial" target="_blank"><img class="iconos" src="../imagenes/Facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/" class="redSocial" target="_blank"><img  class="iconos" src="../imagenes/Instagram1.png" alt="Instagram"></a>
+            <a href="https://www.twitch.tv/" class="redSocial" target="_blank"><img class="iconos" src="../imagenes/Twitch1.png" alt="Twitch"></a>
+            <a href="https://www.youtube.com/" class="redSocial" target="_blank"><img class="iconos" src="../imagenes/Youtube.png" alt="Youtube"></a>
+          </nav>
+        </div>
+    </footer>  
 </body>
 </html>

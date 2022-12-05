@@ -1,9 +1,9 @@
-@use './partials/globales';
+@use './partials-index/globales';
 
-@use './partials/responsives';
+@use './partials-index/responsives';
 
-@use './partials/header';
+@use './partials-index/header';
 
-@use './partials/footer';
+@use './partials-index/footer';
 
-@use './partials/main';
+@use './partials-index/main';
