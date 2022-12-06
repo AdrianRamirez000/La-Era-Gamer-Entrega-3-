@@ -34,7 +34,7 @@
   }
   .forspoken .sipnosis {
     margin: 20px 0px;
-    padding: 0px 30px;
+    padding: 0px 50px 0px 10px;
   }
 }
 @media (min-width: 720px) {
@@ -118,11 +118,13 @@ header .headerNavegacion {
 }
 header h1 {
   font-size: 50px;
+  text-align: center;
 }
 header ul {
   display: flex;
-  margin: 0px;
+  margin: 0px 26px 0px 0px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 header ul .listasHeader {
   margin: 0px 40px 0px 40px;
