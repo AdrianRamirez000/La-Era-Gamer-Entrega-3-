@@ -70,6 +70,30 @@
   }
 }
 @media (min-width: 320px) {
+  .h1_registro {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 9rem;
+  }
+}
+@media (min-width: 960px) {
+  .h1_registro {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 16rem;
+  }
+}
+@media (min-width: 1200px) {
+  .h1_registro {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 15rem;
+  }
+}
+@media (min-width: 320px) {
   footer {
     background-color: rgb(124, 0, 0);
     height: 50rem;
@@ -277,7 +301,6 @@ input {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height: 13rem;
 }
 
 .registro {
